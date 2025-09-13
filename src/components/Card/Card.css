@@ -1,0 +1,20 @@
+:root {
+  --p-color: #15143966;
+}
+
+.mainContainer {
+  font-family: "DM-SANS", Arial, sans-serif;
+  min-width: 228px;
+  min-height: 84px;
+}
+p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--p-color);
+}
+h2 {
+  font-size: 18px;
+  text-align: center;
+}

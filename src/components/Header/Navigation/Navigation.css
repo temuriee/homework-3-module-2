@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "DM-SANS";
+  src: url(../../assets/fonts/DMSans_24pt-Regular.ttf);
+}
+
+:root {
+  --a-color: #15143966;
+}
+
+a {
+  text-decoration: none;
+  color: var(--a-color);
+  font-weight: 500;
+}
+ul {
+  list-style: none;
+}
+.navContainer {
+  width: 520px;
+  height: 22px;
+  font-family: "DM-SANS", Arial, sans-serif;
+}
+li {
+  display: flex;
+  gap: 45px;
+}
+a:hover {
+  color: black;
+}

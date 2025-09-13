@@ -1,0 +1,42 @@
+:root {
+  --btnPrimary-color: #007aff;
+  --btnSecondary-color: #00c7be;
+  --btnColor: White;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 78px auto 0;
+  width: 714px;
+  height: 45px;
+}
+.btnPrimary {
+  width: 200px;
+  height: 41px;
+  background-color: var(--btnPrimary-color);
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  color: var(--btnColor);
+}
+
+.btnSecondary {
+  width: 200px;
+  height: 41px;
+  background-color: var(--btnSecondary-color);
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  color: var(--btnColor);
+}
+
+.btnPrimary:hover {
+  background-color: gold;
+  color: black;
+}
+.btnSecondary:hover {
+  background-color: pink;
+  color: black;
+}

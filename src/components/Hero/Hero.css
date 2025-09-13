@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "DM-SANS";
+  src: url(../../assets/fonts/DMSans_24pt-Regular.ttf);
+}
+
+:root {
+  --h1-color: #1e0e62;
+  --p-color: #15143966;
+}
+
+.heroContainer {
+  font-family: "DM-SANS", Arial, sans-serif;
+  width: 714px;
+  height: 387px;
+  display: flex;
+  margin: 96px auto 0;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  width: 714px;
+  height: 140px;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+  text-align: center;
+  color: var(--h1-color);
+}
+h5 {
+  width: 625px;
+  height: 96px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--p-color);
+  margin: 0 auto;
+}
