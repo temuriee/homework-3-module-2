@@ -1,11 +1,11 @@
 import "./Button.css";
 
-function Button() {
+function Button(props) {
   return (
     <>
       <div className="btnContainer">
-        <button className="btnPrimary">Log In</button>
-        <button className="btnSecondary">Sign Up</button>
+        <button className="btnPrimary">{props.btnPrimary}</button>
+        <button className="btnSecondary">{props.btnSecondary}</button>
       </div>
     </>
   );

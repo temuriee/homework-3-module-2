@@ -2,6 +2,10 @@ import Button from "../Button/Button";
 import "./Hero.css";
 
 function Hero() {
+  const btn = {
+    btnPrimary: "Log In",
+    btnSecondary: "Sign Up",
+  };
   return (
     <>
       <hero className="heroContainer">
@@ -11,7 +15,7 @@ function Hero() {
           companies create websites for their startups quickly and easily.
         </h5>
       </hero>
-      <Button />
+      <Button btnPrimary={btn.btnPrimary} btnSecondary={btn.btnSecondary} />
     </>
   );
 }
